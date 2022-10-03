@@ -1,0 +1,11 @@
+
+@media all and (max-width: 475px){
+    #top-row{
+        justify-content: center;
+    }
+}
+@media all and (max-width: 1200px){
+    footer>.col-2{
+        justify-content: space-evenly;
+    }
+}
