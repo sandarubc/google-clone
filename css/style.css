@@ -67,6 +67,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+}
+#top-row>div>.col-2>div:hover{
+    background-color: rgba(60,64,67,.08);
 }
 #top-row>div>.col-2>a:last-of-type{
     font-size: 13px;
@@ -244,7 +248,7 @@ footer>.col-2>div{
     position: absolute;
     width: 318px;
     height: 586px;
-    /* visibility: hidden; */
+    visibility: hidden;
     /* background-color: #1a0dab; */
     top: 50px;
     right: 0;
