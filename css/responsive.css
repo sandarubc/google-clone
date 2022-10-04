@@ -9,3 +9,10 @@
         justify-content: space-evenly;
     }
 }
+
+@media all and (max-width: 360px){
+    #search-bar{
+        padding: 10px;
+
+    }
+}

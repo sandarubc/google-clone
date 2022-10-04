@@ -60,7 +60,7 @@ a{
     height: 24px;
     fill: #5f6368;
 }
-#top-row>div>.col-2>a:first-of-type{
+#top-row>div>.col-2>div{
     width: 40px;
     height: 40px;
     padding-left: 0;
@@ -240,3 +240,214 @@ footer>.col-2>div{
 }
 
 
+#aside{
+    position: absolute;
+    width: 318px;
+    height: 586px;
+    /* visibility: hidden; */
+    /* background-color: #1a0dab; */
+    top: 50px;
+    right: 0;
+}
+body{
+    position: relative;
+}
+
+#aside>nav{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: scroll;
+    padding: 10px 14px;
+}
+#aside>nav>li>a{
+    display: inline-block;
+    color: #202124;
+    width: 84px;
+    padding: 6px;
+}
+#aside>nav>li>a:hover{
+    background-color: #e8f0fe;
+    border-radius: 8px;
+
+}
+
+#aside>nav>li>a>div{
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+#aside>nav>li>a>div:first-of-type{
+    width: 64px;
+    height: 64px;
+    background-image: url(/image/google-products.png);
+}
+
+#aside>nav>li:first-of-type>a>div:first-of-type{
+    background-position: 0 -2622px;
+}
+#aside>nav>li:nth-of-type(2)>a>div:first-of-type{
+    background-position:  0px -1035px;
+}
+
+#aside>nav>li:nth-of-type(3)>a>div:first-of-type{
+    background-position:  0px -1311px;
+}
+#aside>nav>li:nth-of-type(4)>a>div:first-of-type{
+    background-position:  0px 0px;
+}
+
+
+
+#aside>nav>li:nth-of-type(5)>a>div:first-of-type{
+    background-position:0px -759px;
+}
+
+#aside>nav>li:nth-of-type(6)>a>div:first-of-type{
+    background-position: 0px -2760px;
+}
+
+#aside>nav>li:nth-of-type(7)>a>div:first-of-type{
+    background-position: 0px -1104px;
+}
+
+#aside>nav>li:nth-of-type(8)>a>div:first-of-type{
+    background-position: 0px -2691px;
+}
+
+#aside>nav>li:nth-of-type(9)>a>div:first-of-type{
+    background-position: 0px -138px;
+}
+
+#aside>nav>li:nth-of-type(10)>a>div:first-of-type{
+    background-position: 0px -1587px;
+}
+
+#aside>nav>li:nth-of-type(11)>a>div:first-of-type{
+    background-position: 0px -2001px;
+}
+
+#aside>nav>li:nth-of-type(12)>a>div:first-of-type{
+    background-position: 0px -621px;
+}
+
+#aside>nav>li:nth-of-type(13)>a>div:first-of-type{
+    background-position: 0px -2277px;
+}
+
+#aside>nav>li:nth-of-type(14)>a>div:first-of-type{
+    background-position: 0px -414px;
+}
+
+#aside>nav>li:nth-of-type(15)>a>div:first-of-type{
+    background-position: 0px -897px;
+}
+
+#aside>nav>li:nth-of-type(16)>a>div:first-of-type{
+    background-position: 0px -3105px;
+}
+
+#aside>nav>li:nth-of-type(17){
+    grid-column-end: 3;
+}
+#aside>nav>li:nth-of-type(17)>a>div:first-of-type{
+    background-position: 0px -207px;
+    
+}
+#aside>nav>li:nth-of-type(18){
+    grid-column-start: 1;
+}
+#aside>nav>li:nth-of-type(18)>a>div:first-of-type{
+    background-position: 0px -2208px;
+}
+
+#aside>nav>li:nth-of-type(19)>a>div:first-of-type{
+    background-position: 0px -69px;
+}
+
+#aside>nav>li:nth-of-type(20)>a>div:first-of-type{
+    background-position: 0px -966px;
+}
+
+#aside>nav>li:nth-of-type(21)>a>div:first-of-type{
+    background-position: 0px -276px;
+}
+
+#aside>nav>li:nth-of-type(22)>a>div:first-of-type{
+    background-position: 0px -3036px;
+}
+
+#aside>nav>li:nth-of-type(23)>a>div:first-of-type{
+    background-position: 0px -1518px;
+}
+
+#aside>nav>li:nth-of-type(24)>a>div:first-of-type{
+    background-position: 0px -2139px;
+}
+
+#aside>nav>li:nth-of-type(25)>a>div:first-of-type{
+    background-position: 0px -1173px;
+}
+
+#aside>nav>li:nth-of-type(26)>a>div:first-of-type{
+    background-position: 0px -1794px;
+}
+
+#aside>nav>li:nth-of-type(27)>a>div:first-of-type{
+    background-position: 0px -2553px;
+}
+
+#aside>nav>li:nth-of-type(28)>a>div:first-of-type{
+    background-position: 0px -2346px;
+}
+
+#aside>nav>li:nth-of-type(29)>a>div:first-of-type{
+    background-position: 0px -690px;
+}
+
+#aside>nav>li:nth-of-type(30)>a>div:first-of-type{
+    background-position: 0px -345px;
+}
+
+#aside>nav>li:nth-of-type(31)>a>div:first-of-type{
+    background-position: 0px -1725px;
+}
+
+#aside>nav>li:nth-of-type(32)>a>div:first-of-type{
+    background-position: 0px -1449px;
+}
+
+#aside>nav>li:nth-of-type(33)>a>div:first-of-type{
+    background-position: 0px -2415px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside::-webkit-scrollbar {
+    width: 16px;
+}
+aside::-webkit-scrollbar-thumb {
+    background: #dadce0;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    box-shadow: none;
+    min-height: 50px;
+}
+aside::-webkit-scrollbar-track, .EHzcec::-webkit-scrollbar-track:hover {
+    background: none;
+    border: none;
+}

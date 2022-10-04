@@ -21,9 +21,9 @@
                 
             </div>
             <div class="col-2 col">
-                <a href="https://www.google.lk/intl/en/about/products">
-                    <svg class="gb_Ue" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
-                </a>
+                <div onclick="document.querySelector('aside').style.visibility='visible';">
+                    <svg  class="gb_Ue" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                </div>
                 <a href="https://www.google.lk/intl/en/about/products" class="button">Sign In</a>
             </div>
         </div>
@@ -31,14 +31,14 @@
     <div id="g-img">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
     </div>
-    <foarm id="search-bar">
+    <form id="search-bar" action="./search-result.html" methode="GET">
         <div id="search-bar-wrapper">
             <div class="row-1">
                 <div class="svg">
                     <svg focusable="false" xmlns="httdivp://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
                 </div>
-                <div class="col-1"><input type="text" name="sadaru" id="">
-                    
+                <div class="col-1">
+                    <input type="text" name="q" id="">
                 </div>
                 <div class="svg-close">
                     <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
@@ -49,7 +49,7 @@
                 <button>I'm Feeling Lucky</button>
             </div>
         </div>
-    </foarm>
+    </form>
     <div id="language-bar">
         <div class="wrapper">
             <span>Google offered in: </span>
@@ -70,9 +70,217 @@
                 <a href="">Privacy</a>
                 <a href="">Terms</a>
                 <a href="">Settings</a>
-            </div>
+            </div><li>
+                <a href="">
+                    <div></div>
+                    <div></div>
+                </a>
+            </li>
         </div>
     </footer>
+    <aside id="aside">
+        <nav>
+            <li>
+                <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app">
+                    <div></div>
+                    <div>Account</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.lk/webhp">
+                    <div></div>
+                    <div>Search</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://maps.google.lk/maps?hl=en">
+                    <div></div>
+                    <div>Maps</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/">
+                    <div></div>
+                    <div>YouTube</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://play.google.com/?hl=en">
+                    <div></div>
+                    <div>Play</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://news.google.com/">
+                    <div></div>
+                    <div>News</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://mail.google.com/mail/">
+                    <div></div>
+                    <div>Gmail</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://meet.google.com/?hs=197">
+                    <div></div>
+                    <div>Meet</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://chat.google.com/">
+                    <div></div>
+                    <div>Chat</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://contacts.google.com/?hl=en">
+                    <div></div>
+                    <div>Contacts</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/">
+                    <div></div>
+                    <div>Drive</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://calendar.google.com/calendar">
+                    <div></div>
+                    <div>Calendar</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://translate.google.lk/?hl=en">
+                    <div></div>
+                    <div>Translate</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://photos.google.com/?pageId=none">
+                    <div></div>
+                    <div>Photos</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://duo.google.com/?usp=duo_ald">
+                    <div></div>
+                    <div>Duo</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.com/chrome/?brand=CHZO&utm_source=google.%E2%80%A6esktop-app-launcher&utm_content=chrome-logo&utm_keyword=CHZO">
+                    <div></div>
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.lk/shopping?hl=en&source=og">
+                    <div></div>
+                    <div>Shopping</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.com/finance">
+                    <div></div>
+                    <div>Finance</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/document/?usp=docs_alc">
+                    <div></div>
+                    <div>Docs</div>
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://docs.google.com/spreadsheets/?usp=sheets_alc">
+                    <div></div>
+                    <div>Sheets</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/presentation/?usp=slides_alc">
+                    <div></div>
+                    <div>Slides</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://books.google.lk/?hl=en">
+                    <div></div>
+                    <div>Books</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.blogger.com/">
+                    <div></div>
+                    <div>Blogger</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://hangouts.google.com/">
+                    <div></div>
+                    <div>Hangouts</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://keep.google.com/">
+                    <div></div>
+                    <div>Keep</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamboard.google.com/?usp=jam_ald">
+                    <div></div>
+                    <div>Jamboard</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://earth.google.com/web/">
+                    <div></div>
+                    <div>Earth</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.lk/save">
+                    <div></div>
+                    <div>Collections</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://artsandculture.google.com/?hl=en&utm_source=ogs.google.com&utm_medium=referral">
+                    <div></div>
+                    <div>Arts and Culture</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://ads.google.com/home/?subid=ww-ww-xs-ip-awhc-a-ogb_cons!o2">
+                    <div></div>
+                    <div>Google Ads</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://podcasts.google.com/">
+                    <div></div>
+                    <div>Podcasts</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.com/travel/?dest_src=al">
+                    <div></div>
+                    <div>Travel</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/forms/?usp=forms_alc">
+                    <div></div>
+                    <div>Forms</div>
+                </a>
+            </li>
+        </nav>
+    </aside>
 </body>
 </html>
 
