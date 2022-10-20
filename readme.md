@@ -20,3 +20,10 @@ Google Clone done by me with HTML5 and CSS3. **Media Queries** had used in this 
 - Clone Repository Using
 
 `git clone https://github.com/sandarubc/google-clone.git`
+
+
+## Contatct
+
+Linkedin @ [Sandaru Akalanka](https://www.linkedin.com/in/sandaru-akalanka-464776188/)
+
+Project Link

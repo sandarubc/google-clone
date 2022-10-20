@@ -285,7 +285,7 @@ body{
 #aside>nav>li>a>div:first-of-type{
     width: 64px;
     height: 64px;
-    background-image: url(/image/google-products.png);
+    background-image: url(image/google-products.png);
 }
 
 #aside>nav>li:first-of-type>a>div:first-of-type{
