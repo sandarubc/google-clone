@@ -9,9 +9,11 @@
         let params = new URLSearchParams(location.search);
         document.querySelector("#txt-search").value = params.has('q') ? params.get('q') : "";
     </script>
+    <link rel="stylesheet" href="css/search-result.css">
 </head>
 <body>
-    <h1>My search results</h1>
+    <a href="index.html" id="back"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt=""></a>
+    <h1 id="header">Search Results Using Google Web Service</h1>
     <script async src="https://cse.google.com/cse.js?cx=43b1b431708794db2">
     </script>
     <div class="gcse-search"></div>
