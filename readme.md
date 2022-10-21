@@ -26,4 +26,4 @@ Google Clone done by me with HTML5 and CSS3. **Media Queries** had used in this 
 
 Linkedin @ [Sandaru Akalanka](https://www.linkedin.com/in/sandaru-akalanka-464776188/)
 
-Project Link
+Project Link @ [Google Clone](https://sandarubc.github.io/google-clone/)
