@@ -287,15 +287,15 @@ body{
 }
 
 #aside>nav>li>a>div{
-    position: relative;
     padding: 6px;
     text-align: center;
     font-size: 14px;
-    left:3px;
 }
 #aside>nav>li>a>div:first-of-type{
     width: 64px;
     height: 64px;
+    position: relative;
+    margin: auto;
     background-image: url(../image/google-products.png);
     background-position: right;
     
